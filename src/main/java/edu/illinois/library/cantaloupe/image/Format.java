@@ -161,6 +161,13 @@ public enum Format {
             16,
             true),
 
+    RAFT("RAFT",
+            ImageType.RASTER,
+            Arrays.asList("image/raft"),
+            Arrays.asList("raft"),
+            Type.IMAGE,
+            16,
+            false),
     /**
      * WebM video format.
      */
