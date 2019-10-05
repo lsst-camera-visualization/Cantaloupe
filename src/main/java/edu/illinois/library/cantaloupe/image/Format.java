@@ -164,7 +164,7 @@ public enum Format {
     RAFT("RAFT",
             ImageType.RASTER,
             Arrays.asList("image/raft"),
-            Arrays.asList("raft"),
+            Arrays.asList("raft", "fp"),
             Type.IMAGE,
             16,
             false),
